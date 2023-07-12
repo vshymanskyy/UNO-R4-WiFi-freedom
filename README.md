@@ -1,13 +1,19 @@
 # Freedom for ESP32 on Arduino UNO R4 WiFi!
 
-
 If you (like me) are trying to use ESP32 on the UNO R4 WiFi for your own sketches, you'll soon learn that by re-programming the ESP32 the board loses several powerful features:
 - The ability to see the `Serial` output in the serial monitor
 - Renesas chip debugging
 
+Now, you can have these features back!
+
 > __Note__: This project re-packages parts of the [official Arduino firmware](https://github.com/arduino/uno-r4-wifi-usb-bridge) using PlatformIO
 
 ## Getting started
+
+This project uses **PlatformIO**. We recommend using [**VSCode**][pio_vscode] or [**PIO CLI**][pio_cli].  
+It consists of 2 sketches, one [for the ESP32](src_esp32/main_esp32.cpp) and one [for the Renesas](src/main_ra.cpp) chip.  
+
+### Build and upload
 
 1. Disconnect the UNO R4 WiFi from your PC
 2. Short the pins highlighted in the image using a jumper wire:
@@ -30,7 +36,7 @@ pio run -e esp32 -t upload
 pio run -e unoR4 -t upload -t monitor
 ```
 
-## Expected Serial Monitor output:
+### Expected Serial Monitor output:
 
 ```log
 ESP32 says: Freedom for ESP32-S3! 🌟🌟🌟
@@ -38,3 +44,6 @@ ESP32 says: Freedom for ESP32-S3! 🇺🇦🛡️🇺🇦🛡️🇺🇦
 ESP32 says: Freedom for ESP32-S3! 😎👌🔥
 ESP32 says: Freedom for ESP32-S3! 🚀🌘
 ```
+
+[pio_vscode]: https://docs.platformio.org/en/stable/integration/ide/vscode.html#ide-vscode
+[pio_cli]: https://docs.platformio.org/en/stable/core/index.html
