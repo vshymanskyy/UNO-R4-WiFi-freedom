@@ -1,0 +1,14 @@
+{
+  "name": "ESP_UNO_R4",
+  "version": "0.2.0",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/arduino/uno-r4-wifi-usb-bridge"
+  },
+  "description": "",
+  "keywords": "",
+  "license": "",
+  "frameworks": "*",
+  "platforms": "*"
+}
