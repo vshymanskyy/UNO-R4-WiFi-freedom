@@ -30,4 +30,11 @@ pio run -e esp32 -t upload
 pio run -e unoR4 -t upload -t monitor
 ```
 
-9. Done!
+## Expected Serial Monitor output:
+
+```log
+ESP32 says: Freedom for ESP32-S3! 🌟🌟🌟
+ESP32 says: Freedom for ESP32-S3! 🇺🇦🛡️🇺🇦🛡️🇺🇦
+ESP32 says: Freedom for ESP32-S3! 😎👌🔥
+ESP32 says: Freedom for ESP32-S3! 🚀🌘
+```
