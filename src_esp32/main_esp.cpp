@@ -10,6 +10,7 @@ const char* emojis[8] = {
 
 void setup()
 {
+  // Initialize CDC Bridge and CMSIS-DAP
   esp_uno_r4_setup();
 }
 
