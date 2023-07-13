@@ -11,7 +11,7 @@ Now, you can have these features back!
 ## Getting started
 
 This project uses **PlatformIO**. We recommend using [**VSCode**][pio_vscode] or [**PIO CLI**][pio_cli].  
-It consists of 2 sketches, one [for the ESP32](src_esp32/main_esp32.cpp) and one [for the Renesas](src/main_ra.cpp) chip.  
+It consists of 2 sketches, one [for the ESP32](src_esp32/main_esp.cpp) and one [for the Renesas](src/main_ra.cpp) chip.  
 
 ### Build and upload
 
