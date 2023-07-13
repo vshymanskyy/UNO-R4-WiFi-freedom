@@ -6,11 +6,9 @@ If you (like me) are trying to use ESP32 on the UNO R4 WiFi for your own sketche
 
 Now, you can have these features back!
 
-> __Note__: This project re-packages parts of the [official Arduino firmware](https://github.com/arduino/uno-r4-wifi-usb-bridge) using PlatformIO
-
 ## Getting started
 
-This project uses **PlatformIO**. We recommend using [**VSCode**][pio_vscode] or [**PIO CLI**][pio_cli].  
+> __Note__: This project re-packages parts of the [official Arduino firmware](https://github.com/arduino/uno-r4-wifi-usb-bridge) using PlatformIO. Please use [**VSCode**][pio_vscode] or [**PIO CLI**][pio_cli].  
 It consists of 2 sketches, one [for the ESP32](src_esp32/main_esp.cpp) and one [for the Renesas](src/main_ra.cpp) chip.  
 
 ### Build and upload
