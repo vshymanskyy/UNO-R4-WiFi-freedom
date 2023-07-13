@@ -8,7 +8,7 @@ Fear not, this project lets you reclaim your power!
 
 ## Getting started
 
-> __Note__: This project re-packages parts of the [official Arduino firmware](https://github.com/arduino/uno-r4-wifi-usb-bridge) using PlatformIO.
+> __Note__: This project re-packages parts of the [official Arduino firmware](https://github.com/arduino/uno-r4-wifi-usb-bridge) using PlatformIO.  
 > Please use [**VSCode**][pio_vscode] or [**PIO CLI**][pio_cli].  
 
 There are 2 sketches, one [for the ESP32](src_esp32/main_esp.cpp) and one [for the Renesas](src/main_ra.cpp) chip.  
