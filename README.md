@@ -4,7 +4,7 @@ If you (like me) are trying to use ESP32 on the UNO R4 WiFi for your own sketche
 - The ability to see the `Serial` output in the serial monitor
 - Renesas chip debugging
 
-Now, you can have these features back!
+Fear not, this project lets you reclaim your power!
 
 ## Getting started
 
