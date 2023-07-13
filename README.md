@@ -47,3 +47,10 @@ ESP32 says: Freedom for ESP32-S3! 🚀🌘
 
 [pio_vscode]: https://docs.platformio.org/en/stable/integration/ide/vscode.html#ide-vscode
 [pio_cli]: https://docs.platformio.org/en/stable/core/index.html
+
+--- 
+
+### Restoring the original ESP32 firmware
+
+Install [the official Arduino firmware release](https://github.com/arduino/uno-r4-wifi-usb-bridge/releases/latest)
+
