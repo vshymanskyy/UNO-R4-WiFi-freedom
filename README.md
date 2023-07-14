@@ -4,14 +4,14 @@ If you (like me) are trying to use ESP32 on the UNO R4 WiFi for your own sketche
 - The ability to see the `Serial` output in the serial monitor
 - Renesas chip debugging
 
-Now, you can have these features back!
-
-> __Note__: This project re-packages parts of the [official Arduino firmware](https://github.com/arduino/uno-r4-wifi-usb-bridge) using PlatformIO
+Fear not, this project lets you reclaim your power!
 
 ## Getting started
 
-This project uses **PlatformIO**. We recommend using [**VSCode**][pio_vscode] or [**PIO CLI**][pio_cli].  
-It consists of 2 sketches, one [for the ESP32](src_esp32/main_esp32.cpp) and one [for the Renesas](src/main_ra.cpp) chip.  
+> __Note__: This project re-packages parts of the [official Arduino firmware](https://github.com/arduino/uno-r4-wifi-usb-bridge) using PlatformIO.  
+> Please use [**VSCode**][pio_vscode] or [**PIO CLI**][pio_cli].  
+
+There are 2 sketches, one [for the ESP32](src_esp32/main_esp.cpp) and one [for the Renesas](src/main_ra.cpp) chip.  
 
 ### Build and upload
 
@@ -47,3 +47,10 @@ ESP32 says: Freedom for ESP32-S3! 🚀🌘
 
 [pio_vscode]: https://docs.platformio.org/en/stable/integration/ide/vscode.html#ide-vscode
 [pio_cli]: https://docs.platformio.org/en/stable/core/index.html
+
+--- 
+
+### Restoring the original ESP32 firmware
+
+Install [the official Arduino firmware release](https://github.com/arduino/uno-r4-wifi-usb-bridge/releases/latest)
+
